@@ -1,0 +1,86 @@
+p{
+  font-family: {{fontFamily}};
+  color: {{fontColour}}; 
+  font-weight:bold;
+  margin:0px;
+  padding:10px;
+}
+
+h1{
+  font-family: {{fontFamily}};
+  color: {{fontColour}}; 
+  font-weight:bold;
+  font-size: 2em;
+  padding:10px;
+}
+
+.container{
+ float:right; 
+}
+
+.rules{
+  background-color: {{bgColour}}; 
+  border: 5px solid {{borderColour}};
+  border-radius: 20px; 
+  max-width:30%;
+}
+
+.rules p{
+ font-size:1.3em; 
+}
+
+.countdownContainer{
+  background-color: {{bgColour}}; 
+  border: 5px solid {{borderColour}};
+  display:block;
+  border-radius: 20px;
+  float:right;
+}
+
+.countdownContainer p{
+   font-size:75px; 
+}
+
+.eventContainer p{
+    font-size:25px; 
+    font-family: {{fontFamily}};
+  color: {{fontColour}}; 
+  
+}
+
+.eventContainer{
+  background-color: {{bgColour}};
+  display:block;
+  border-radius: 20px;
+  height:0px; 
+  float:right;
+  border: 2px solid {{borderColour}};
+  
+}
+
+#popupMessage {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(143, 55, 249, 0.5);
+  color: rgb(143, 55, 249);
+  padding: 20px;
+  font-size: 2em;
+  border-radius: 10px;
+  z-index: 9999;
+  display: none;
+  animation: popUpAnimation 1s ease-in-out;
+}
+
+@keyframes popUpAnimation {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}

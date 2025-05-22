@@ -1,0 +1,18 @@
+{
+  "initial_duration": 1.6,
+  "max_duration": 999999,
+  "sub_time": 10,
+  "bit_minimum": 1,
+  "bit_time": 0.03,
+  "tip_currency": "€",
+  "tip_minimum": 0.01,
+  "tip_time": 0.03,
+  "fontFamily": "Julee",
+  "fontColour": "rgb(143, 55, 249)",
+  "bgColour": "rgba(143, 55, 249, 0.5)",
+  "borderColour": "rgb(143, 55, 249)",
+  "info_interval": null,
+  "info_duration": 99999999,
+  "show_info": false,
+  "follow_time": 1
+}

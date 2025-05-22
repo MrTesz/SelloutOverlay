@@ -1,0 +1,97 @@
+{
+  "initial_duration": {
+    "group": "TimeConfig",
+    "type": "number",
+    "label": "Initial Stream Length (h)",
+    "value": 5
+  },
+  "max_duration": {
+    "group": "TimeConfig",
+    "type": "number",
+    "label": "Maximale Streamlänge (h)",
+    "value": 24
+  },
+  "sub_time": {
+    "group": "TimeConfig",
+    "type": "number",
+    "label": "Zeit + pro Sub (m)",
+    "value": 5
+  },
+  "follow_time": {
+    "group": "TimeConfig",
+    "type": "number",
+    "label": "Zeit + pro Follower (m)",
+    "value": 3
+  },
+  "bit_minimum": {
+    "group": "TimeConfig",
+    "type": "number",
+    "label": "Minimale Bit Spende",
+    "value": 100
+  },
+  "bit_time": {
+    "group": "TimeConfig",
+    "type": "number",
+    "label": "Zeit + pro 1 Bit (m)",
+    "value": 1
+  },
+  "tip_currency": {
+    "group": "TimeConfig",
+    "type": "text",
+    "label": "Währung",
+    "value": "€"
+  },
+  "tip_minimum": {
+    "group": "TimeConfig",
+    "type": "number",
+    "label": "Minimale Donation",
+    "value": 5
+  },
+  "tip_time": {
+    "group": "TimeConfig",
+    "type": "number",
+    "label": "Set Tip Increment (m)",
+    "value": 5
+  },
+  "fontFamily": {
+    "group": "Style",
+    "type": "googleFont",
+    "label": "Font:",
+    "value": "Roboto"
+  },
+  "fontColour": {
+    "group": "Style",
+    "type": "colorpicker",
+    "label": "Textfarbe",
+    "value": "#0000FF"
+  },
+  "bgColour": {
+    "group": "Style",
+    "type": "colorpicker",
+    "label": "Hintergrundfarbe",
+    "value": "#0000FF"
+  },
+  "borderColour": {
+    "group": "Style",
+    "type": "colorpicker",
+    "label": "Farbe der Ränder",
+    "value": "#0000FF"
+  },
+  "show_info": {
+    "group": "Info Panel",
+    "type": "checkbox",
+    "label": "Zeige Info Panel"
+  },
+  "info_interval": {
+    "group": "Info Panel",
+    "type": "number",
+    "label": "Show every X Minutes",
+    "value": 5
+  },
+  "info_duration": {
+    "group": "Info Panel",
+    "type": "number",
+    "label": "How long to show rules for (s)",
+    "value": 30
+  }
+}
